@@ -1439,8 +1439,7 @@ checksum = "436d45c2b6a5b159d43da708e62b25be3a4a3d5550d654b72216ade4c4bfd717"
 [[package]]
 name = "redox-pkg"
 version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "618ad6a26b28ba7e0acd8c4188680306e482ef1924f197ef9c541dd5e5cfaf01"
+source = "git+https://github.com/retezec/pkgutils?rev=b563f2f80a8a2e3fa2661ccfbbdb7c2eced8a833#b563f2f80a8a2e3fa2661ccfbbdb7c2eced8a833"
 dependencies = [
  "hex",
  "indicatif",
